@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+
+message DataIn {
+  string id = 1;
+  string name1 = 2;
+  string name2 = 3;
+}
